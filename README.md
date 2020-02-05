@@ -5,9 +5,9 @@ We seek to detect cultural violence in natural language through measuring the se
 The main contributions of this paper are as follows
 
 1. Propose cultural violence as a guiding theory for detecting harmful content in natural language.
-..* Propose a novel methodology for detecting harmful content in natural language.
-..* Identifying where current general purpose NLP technologies fall short in the specific task of detecting cultural violence
-..* A new nlp pipeline workflow for annotating the ingroup andoutgroups in natural language texts.
+  * Propose a novel methodology for detecting harmful content in natural language.
+  * Identifying where current general purpose NLP technologies fall short in the specific task of detecting cultural violence
+  * A new nlp pipeline workflow for annotating the ingroup andoutgroups in natural language texts.
 
 ## Methodology
 In having proposed cultural violence as a guiding theory, we proposed the following three step methodology.
