@@ -5,16 +5,16 @@ We seek to detect cultural violence in natural language through measuring the se
 The main contributions of this paper are as follows
 
 1. Propose cultural violence as a guiding theory for detecting harmful content in natural language.
-  * Propose a novel methodology for detecting harmful content in natural language.
-  * Identifying where current general purpose NLP technologies fall short in the specific task of detecting cultural violence
-  * A new nlp pipeline workflow for annotating the ingroup andoutgroups in natural language texts.
+2. Propose a novel methodology for detecting harmful content in natural language.
+3. Identifying where current general purpose NLP technologies fall short in the specific task of detecting cultural violence
+4. A new nlp pipeline workflow for annotating the ingroup andoutgroups in natural language texts.
 
 ## Methodology
 In having proposed cultural violence as a guiding theory, we proposed the following three step methodology.
 
 1. Detect the ingroup and outgroup of an orator's text
-.. Detect how each mode of influence is used for elevating the ingroup and debase the outgroup to create a gradient between each
-.. Devise a schema for measuring the gradient
+2. Detect how each mode of influence is used for elevating the ingroup and debase the outgroup to create a gradient between each
+3. Devise a schema for measuring the gradient
 
 For the detectiong of cultural violence in natural langugage we test existing Natural Language Processing (NLP) technologies for each .. step of the methodology from which new pipeline components have been devised. NLP is a branch of artificial intelligence which seeks to process natural language to derive meaning. In general terms there are two fields of NLP, theoretical and applied. Theoretical NLP is concerned with the technical aspects of processing language and Applied NLP is concerned with the application of such technologies. The technologies we test are from the spaCy library for Python. This research sits within applied NLP and in seeking to qualify sociological theory sits within the field of the Digital Humanities.
 
@@ -30,5 +30,5 @@ Detailed testing of the Watson API
 From these tests, the following spaCy pipeline components have been created:
 
 1. Supplemtary Named Entity Recognition - contains corrections for named entities either not identified or incorrectly identified by the model.
-.. A typology of cultural violence based on Mike Martin's 'Why We Fight' and Social Identity Theory for detecting aspects of culture.
-.. Named Concept Recognition - Using the cultural violence typology, and seed words from each speech, a component for detecting concepts related to each aspect of culture.
+2. A typology of cultural violence based on Mike Martin's 'Why We Fight' and Social Identity Theory for detecting aspects of culture.
+3. Named Concept Recognition - Using the cultural violence typology, and seed words from each speech, a component for detecting concepts related to each aspect of culture.
