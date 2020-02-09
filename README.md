@@ -2,14 +2,14 @@
 ---
 This research is about detecting cultural violence by measuring the "self-other gradient" in a conflict narrative by using Natural Language Processing (NLP) technologies to understand the linguistic patterns used to legitimise violence.  The idea of cultural violence was first proposed in a 1990 paper by the Peace Researcher, Johan Galtung. In his paper he explores how aspects of culture are used to create a ‘self-other gradient’ between ‘Chosen People’ and others deemed ‘lower down the scale of worthiness’ . This gradient is manifests in conflict narratives when an orator uses aspects of culture to elevate their chosen people and debase or 'otherise' their adversary. For example, with the phrase, 'God bless America’ George Bush uses religion as an aspect of culture to elevate his ingroup of America with a divine status; with the phrase ‘axis of evil’ he uses a religious concept to debase his outgroup of Iran, Iraq and North Korea. Having created a self-other gradient, violence is legitimised 'by changing the moral colour of an act from red/wrong to green/right or at least to yellow/acceptable; an example being 'murder on behalf of the country as right, on behalf of oneself as wrong’. Here Galtung refers to the legitimisation of military force using aspects of culture such as ideologies of national pride and international law, whereas individuals operating outside of this legitimisation framework would otherwise be committing murder. What follows is a general hypothesis in conflict narratives whereby the greater the linguistic distance between groups created by the self-other gradient, the more legitimate acts of violence against an outgroup becomes.
 
-## Tests
+## Experiments
 IN the repository we present a number of experiments used to assess necessary modification to :
 
 1. A test of named entity recognition in the spaCy language models against the dataset.
 2. A test of sentiment analysis technologies for detecting the ingroup and outgroup of a text.
 3. Detailed testing of the Watson API
 
-From these tests, the following spaCy pipeline components have been created:
+From these experiments, the following spaCy pipeline components have been created:
 
 1. Supplemtary Named Entity Recognition - contains corrections for named entities either not identified or incorrectly identified by the model.
 2. Named Concept Recognition - Using the novel typology of groups, and seed words from the dataset, a component for detecting concepts related to each aspect of culture.
